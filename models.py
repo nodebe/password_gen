@@ -11,6 +11,6 @@ class Password(Base):
 	label = Column('label', String)
 	password = Column('password', String)
 
-engine = create_engine('sqlite:///password_generator.db')
+engine = create_engine('sqlite:///passwords.db')
 Base.metadata.create_all(bind=engine)
 Session = sessionmaker(bind=engine)
