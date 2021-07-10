@@ -6,8 +6,8 @@ A python command line interface to generate and store passwords to a database
 
 ## __Libraries__
 
-Fire
-Clipboard
+Fire,
+Clipboard,
 sqlalchemy
 
 # Installation
